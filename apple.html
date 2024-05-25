@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apple</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+        header {
+            background-color: #f8f8f8;
+            padding: 20px 0;
+            text-align: center;
+            border-bottom: 1px solid #e6e6e6;
+        }
+        header img {
+            height: 40px;
+        }
+        .hero {
+            background-image: url('https://www.apple.com/v/home/af/images/heroes/iphone-14-pro/hero_static__d7cm9bknoa26_large.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.5em;
+        }
+        .products {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            padding: 20px;
+        }
+        .product {
+            background: white;
+            border: 1px solid #e6e6e6;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin: 20px;
+            width: calc(33% - 40px);
+            text-align: center;
+            padding: 20px;
+            transition: transform 0.3s;
+        }
+        .product:hover {
+            transform: translateY(-10px);
+        }
+        .product img {
+            width: 100%;
+            height: auto;
+            border-bottom: 1px solid #e6e6e6;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        .product h2 {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        .product p {
+            color: #666;
+        }
+        footer {
+            background-color: #f8f8f8;
+            text-align: center;
+            padding: 20px 0;
+            border-top: 1px solid #e6e6e6;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="https://www.apple.com/ac/globalnav/6/en_US/images/globalnav/apple/image_large.svg" alt="Apple Logo">
+    </header>
+
+    <div class="hero">
+        <h1>iPhone 14 Pro</h1>
+        <p>Pro. Beyond.</p>
+    </div>
+
+    <div class="products">
+        <div class="product">
+            <img src="https://www.apple.com/v/iphone-14-pro/b/images/overview/hero/hero__d7cm9bknoa26_large.jpg" alt="iPhone 14 Pro">
+            <h2>iPhone 14 Pro</h2>
+            <p>Pro camera system.</p>
+        </div>
+        <div class="product">
+            <img src="https://www.apple.com/v/iphone-13/f/images/overview/design/finishes_1_static__ecffk0sfetua_large.jpg" alt="iPhone 13">
+            <h2>iPhone 13</h2>
+            <p>Your new superpower.</p>
+        </div>
+        <div class="product">
+            <img src="https://www.apple.com/v/ipad-pro/ac/images/overview/hero/hero_static__ddskxk04fsme_large.jpg" alt="iPad Pro">
+            <h2>iPad Pro</h2>
+            <p>Supercharged by the Apple M1 chip.</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Apple Inc. All rights reserved.</p>
+    </footer>
+</body>
+</html>
